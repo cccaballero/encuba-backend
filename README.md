@@ -62,7 +62,7 @@ The API will be available at `http://127.0.0.1:8000/`
 
 API endpoints are documented using Django REST Framework's built-in web interface. After starting the development server, you can access:
 
-- API: `http://127.0.0.1:8000/api/schema/swagger-ui/`
+- API: `http://127.0.0.1:8000/api/`
 - Browsable API Documentation: `http://127.0.0.1:8000/api/schema/swagger-ui/`
 - Admin interface: `http://127.0.0.1:8000/admin/` (requires superuser account)
 

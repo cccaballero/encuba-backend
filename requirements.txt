@@ -1,0 +1,14 @@
+django==4.0.6
+djangorestframework==3.13.1
+psycopg2==2.9.3
+python_dotenv==0.20.0
+djangorestframework_gis==1.0
+django_filter==22.1
+dj-rest-auth==2.2.5
+dj-rest-auth[with_social]
+djangorestframework_simplejwt==5.2.0
+git+https://github.com/PaesslerAG/django-currentuser.git@f63850d711ba88c9a9ee2128642dbaee8165a081
+drf_spectacular==0.23.1
+django_crum==0.7.9
+osmnx==1.2.2
+django-cors-headers==3.13.0

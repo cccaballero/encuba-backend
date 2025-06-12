@@ -1,0 +1,16 @@
+version: "3"
+
+volumes:
+  encuba_data: null
+
+services:
+  postgres:
+    image: postgis/postgis:14-3.2-alpine
+    container_name: "encuba-db"
+    restart: unless-stopped
+    stop_grace_period: "3s"
+    volumes:
+      - encuba_data:/var/lib/postgresql/data
+    env_file: .env
+    ports:
+      - "54321:5432"
